@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html>
+<head>
+		
+	
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="title" content="Kikk Festival - International Digital Festival" />
+<meta name="description" content="" />
+<meta name="robots" content="index, follow" />
+<meta name="keywords" content="" />
+<meta name="subject" content="" />
+<meta name="revisit-after" content="5 DAYS" /><title>Kikk Festival - International Digital Festival</title>
+<script type="text/javascript">
+//<![CDATA[
+	if(window['Locale'] && Locale.use) Locale.use('fr-FR');
+//]]>
+</script>
+	
+		<script type="text/javascript" src="//use.typekit.net/xnt7vxi.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/jquery.min.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/jquery-ui-1.8.23.min.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/jquery-touch-punch.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/snowfall.jquery.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/jquery.iosslider.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/jquery.dropkick-1.0.0.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/zebra_transform.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/kikk.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/modernizr-1.0.min.js"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/lightbox.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+	<script type="text/javascript" src="http://www.kikk.be/2012/files/templates/kikk/public/js/jquery.fancybox.js"></script>
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	
+	<link href="http://www.kikk.be/2012/service/template/css/8?lng=fr" rel="stylesheet" type="text/css" />
+	<link href="http://www.kikk.be/2012/service/template/css/7?lng=fr" rel="stylesheet" type="text/css" />
+	<link href="http://www.kikk.be/2012/service/template/css/9?lng=fr" rel="stylesheet" type="text/css" />
+	<link href="http://www.kikk.be/2012/service/template/css/13?lng=fr" rel="stylesheet" type="text/css" />
+	<!--[if lte IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	
+	<!--ANALYTICS-->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-156014-54']);
+	  _gaq.push(['_setDomainName', 'kikk.be']);
+	  _gaq.push(['_trackPageview']);
+	
+	  (function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+
+</head>
+<body>
+	<div id="wrapper">
+		<header id="banner">
+		<section id="banner-top">
+	<ul id="socialLinks">
+		<li><a href="http://www.kikk.be/2012/festival.htm?lng=fr" page-id="about-page" title="" class="fest">Festival</a></li>
+		<li><a href="" title="" class="news">News</a></li>
+		<li><a href="https://twitter.com/Kikk_Festival" title="Twitter" class="twitter" target="_blank">Twitter</a></li>
+		<li><a href="https://www.facebook.com/KIKK.Festival" title="Facebook" class="facebook" target="_blank">Facebook</a></li>
+		<li><a href="http://www.flickr.com/photos/kikk_festival/sets/" title="Flickr" class="flickr" target="_blank">Flickr</a></li>
+		<li><a href="http://vimeo.com/channels/kikk" title="Vimeo" class="vimeo" target="_blank">Vimeo</a></li>
+		<li><a href="http://storify.com/kikk_festival/kikk-festival-2012" title="Storify" class="storify" target="_blank">Storify</a></li>
+		<li class="lang">
+	</li>
+	</ul>
+</section>
+   		<nav id="menu">
+	<h1 id="logoHeader"><a href="http://www.kikk.be/2012/" title="back to home" page-id="home-page">Kikk Festival International digital festival</a></h1>
+	<ul id="nav">
+		<li >
+				<a page-id="home-page" class="first " href="http://www.kikk.be/2012/accueil.htm?lng=fr">Accueil</a></li><li >
+				<a page-id="program-page" class="" href="http://www.kikk.be/2012/programme.htm?lng=fr">Programme</a></li><li >
+				<a page-id="eksperience-page" class="" href="http://www.kikk.be/2012/eksperience.htm?lng=fr">Eksperience</a></li><li >
+				<a page-id="kontest-page" class="" href="http://www.kikk.be/2012/kontest.htm?lng=fr">Kontest</a></li><li >
+				<a page-id="info-page" class="last " href="http://www.kikk.be/2012/details-pratiques.htm?lng=fr">Détails pratiques</a></li>	</ul>
+</nav>
+ </header>
+    	<!--NEWS-->
+<section id="news-box">
+	<div id="news-container">
+		
+<p><a href="#" id="close-news">Close news</a></p>
+
+<div id="news-slider">
+	<a href="#" id="news-slider-prev" class="slider-controller newsControl newsPrev">prev</a>
+	<a href="#" id="news-slider-next" class="slider-controller newsControl newsNext">next</a>
+	
+	<section class='news-slider'>
+		<div class = 'slider'>
+			
+	<article class='item'>
+		<p class="date">29/10/2012</p>
+		<h2>On cherche encore des &eacute;quipes pour le KIKK Kontest</h2>
+		<p>On cherche encore des équipes pour le KIKK Kontest, concours multidisciplinaire, qui aura lieu pendant 24h sur toute la durée du festival. </p>
+<p class="p1">Il y a plus de 6000€ de prix à gagner dont un voyage au <a href="http://resonate.io/2013/" target="_blank">Resonate Festival</a> en Serbie, des Suites Adobe, des tablettes Wacom, 500 € en cash, A an d'abonnement gsm Mobile Vikings avec data, et bien plus encore... <a href="http://kikk.be/2012/kontest.htm?lng=en" target="_blank">Inscrivez-vous</a> maintenant!</p>	</article>
+	<article class='item'>
+		<p class="date">19/10/2012</p>
+		<h2>Encore quelques places pour les workshops de vendredi</h2>
+		<p>Il reste encore quelques places pour les 3 workshops du vendredi 9 novembre: Musical Experimental Board, 3D Wall Printing et Noisy Jelly. Dépechez-vous si vous voulez réserver votre place dans un de ces workshops super créatifs. Ils ont tous lieu au même moment donc vous ne pouvez vous inscrire qu'à un seul. Pour vous inscrire, c'est <a href="http://kikk.be/2012/inscription.htm?lng=fr" target="_blank">par ici</a>. </p>	</article>
+	<article class='item'>
+		<p class="date">01/10/2012</p>
+		<h2>Appel a Candidatures pour le Kontest</h2>
+		<p>Les inscriptions au KIKK Kontest sont aussi ouvertes à tout les étudiants ou professionels.</p>
+<p>Si vous êtes designer, webdeveloper, mobile developer, photographe, illustrateur, sound designer, artistes numérique, créateur d'installations ou expert de toute autre discipline liée au digital le KIKK Kontest est fait pour vous! 24h pour créer un projet et le présenter devant un jury prestigieux.</p>
+<p><a href="http://kikk.be/2012/inscription.htm?lng=fr">Cliquez ici</a> pour vous inscrire dès à présent.</p>	</article>
+
+		</div>
+	</section>
+</div>
+	</div>
+</section>
+<!--end NEWS-->
+    	<aside id="donate">
+	<form id="postPayPal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+		<input type="hidden" name="cmd" value="_donations">
+		<input type="hidden" name="business" value="SQ4QFZPVGMZBL">
+		<input type="hidden" name="lc" value="BE">
+		<input type="hidden" name="item_name" value="Kikk Festival">
+		<input type="hidden" name="item_number" value="2012">
+		<input type="hidden" name="no_note" value="0">
+		<input type="hidden" name="cn" value="Add special instructions to the seller:">
+		<input type="hidden" name="no_shipping" value="2">
+		<input type="hidden" name="currency_code" value="EUR">
+		<input type="hidden" name="bn" value="PP-DonationsBF:btn_donateCC_LG.gif:NonHosted">
+		<input type="image" src="https://www.paypalobjects.com/en_US/BE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+		<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+
+		<p><a href="#" onclick="$('#postPayPal').submit();" title="donate and help the festival"><span id="subText"><strong>Donate</strong>And help the festival</a></span></p>
+	</form>
+	
+</aside>
+    	
+    	<div id="stage-container">
+			<section id="error-page" class="page dark-page">
+				<div class="page-wrapper">
+					
+					<header id="header">
+						<h1><strong>404 page</strong></h1>
+						<h2>La page que vous cherchez n'existe pas</h2>
+					</header>
+					
+					
+					<div class="inner-content innerRegister"> 	
+					</div>
+					
+					<div class="falling-feathers"></div>
+					
+				</div>
+				
+			</section>
+		</div>
+        
+    <div class="clear"></div>
+     
+<div id="bottom-slider">
+	<a href="#" id="bottom-slider-prev" class="slider-controller">prev</a>
+	<a href="#" id="bottom-slider-next" class="slider-controller">next</a>
+	
+<section class='infinite-slider'>
+	<div class='slider'>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-1.jpg" alt="" class="cache" />
+		</div>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-2.jpg" alt="" class="cache" />
+		</div>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-3.jpg" alt="" class="cache" />
+		</div>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-4.jpg" alt="" class="cache" />
+		</div>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-5.jpg" alt="" class="cache" />
+		</div>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-6.jpg" alt="" class="cache" />
+		</div>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-7.jpg" alt="" class="cache" />
+		</div>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-8.jpg" alt="" class="cache" />
+		</div>
+				<div class='item'>
+			<img src="http://www.kikk.be/2012/files/library/gallery/thumb-gallery-9.jpg" alt="" class="cache" />
+		</div>
+			</div>
+</section>
+</div>
+
+
+<div id="feather-transition"></div>
+
+<!--FOOTER-->
+<footer id="footer">
+	<div id="footerContent">
+		<h1>Our essential partners</h1>
+		<ul id="partner-list" >
+			<li><a href="http://www.bep-entreprises.be/" target="_blank" class="ext-link"><img src="http://kikk.be/2012/files/library/partenaires/bep.jpg" alt="Bep" /></a></li>		
+			<li><a href="http://www.creativewallonia.be/" target="_blank" class="ext-link"><img src="http://kikk.be/2012/files/library/partenaires/creativeWallonia.jpg" alt="Creative Wallonia" /></a></li>		
+			<li><a href="http://www.creativewallonia.be/" target="_blank" class="ext-link"><img src="http://kikk.be/2012/files/library/partenaires/semaine.png" alt="Semaine de la créativité" /></a></li>		
+			<li><a href="http://www.federation-wallonie-bruxelles.be/" target="_blank" class="ext-link"><img src="http://kikk.be/2012/files/library/partenaires/federationwb.jpg" alt="Fédération wallonie bruxelles" /></a></li>
+			<li><a href="http://superbe-interactive.be/" target="_blank" class="ext-link"><img src="http://kikk.be/2012/files/library/partenaires/superbe.png" alt="Superbe interactive" /></a></li>
+			<li><a href="http://www.dogstudio.be/" target="_blank" class="ext-link"><img src="http://kikk.be/2012/files/library/partenaires/dog.png" alt="Dog studio" /></a></li>
+		</ul>
+		<h1 class="second">Our beloved sponsors</h1>
+		<div class='iosSlider'>
+		<!-- slider -->
+			<div class='partnerSlider'>
+				<ul id="sliderPartner-list">
+					<li class="item"><a class="ext-link" href="http://www.checkthis.com/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/checkthis.png" alt="Checkthis" /></a></li>
+					<li class="item"><a class="ext-link" href="http://www.awt.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/awt.png" alt="Vedett" /></a></li>
+					<li class="item"><a class="ext-link" href="http://www.wacom.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/wacom.png" alt="Wacom" /></a></li>
+					<li class="item"><a class="ext-link" href="http://www.namur.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/namurcapitale.png" alt="Namur Capitale" /></a></li>
+					<li class="item"><a class="ext-link" href="http://www.audioplus.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/audio.png" alt="Audio plus" /></a></li>
+					<li class="item"><a class="ext-link" href="http://jellycube.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/jelly.png" alt="Jelly cube" /></a></li>
+					<li class="item"><a class="ext-link" href="https://mobilevikings.com/fr/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/mobileviking.png" alt="Mobile Viking" /></a></li>
+					<li class="item"><a class="ext-link" href="http://adobe.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/adobe.png" alt="Mobile Viking" /></a></li>
+					<li class="item"><a class="ext-link" href="http://www.vedett.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/vedett.png" alt="Vedett" /></a></li>
+					<li class="item"><a class="ext-link" href="http://www.quatuor.be" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/quatuor.png" alt="Quatuor" /></a></li>
+					<li class="item"><a class="ext-link" href="http://www.rosseladvertising.be/fr/corporate/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/rossel_comm.png" alt="Rossel Advertising"/></a></li>
+					<li class="item"><a class="ext-link" href="http://portail.umons.ac.be/FR/universite/facultes/fti/Pages/default.aspx" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/eii.png" alt="EII" /></a></li>
+					<li class="item"><a class="ext-link" href="http://spotify.be" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/spotify.png" alt="Spotify" /></a></li>
+					<li class="item"><a class="ext-link" href="http://infotec.net" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/infotec.png" alt="Infotec" /></a></li>
+					<li class="item"><a class="ext-link" href="http://cepegra.be" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/cepegra.png" alt="Cepegra" /></a></li>
+					<li class="item"><a class="ext-link" href="http://clameurs.fr/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/clameurs.png" alt="Clameurs" /></a></li>
+					<li class="item"><a class="ext-link" href="http://purefm.be" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/purefm.png" alt="PureFm" /></a></li>
+					<li class="item"><a class="ext-link" href="http://www.smartbe.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/smart.png" alt="Smart Be"/></a></li>
+					<li class="item"><a class="ext-link" href="http://www.designinnovation.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/design_inno.png" alt="Design innovation"/></a></li>
+					<li class="item"><a class="ext-link" href="http://www.quoilin.bmw.be/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/quoilin.png" alt="Quoilin"/></a></li>
+					<li class="item"><a class="ext-link" href="http://www.rosseladvertising.be/fr/corporate/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/rossel_adv.png" alt="Rossel Communication"/></a></li>
+					<li class="item"><a class="ext-link" href="http://twist-cluster.com" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/twist.png" alt="Cluster Twist"/></a></li>
+					
+				</ul>
+			</div>
+		</div>
+		<h2>Our estimated friends</h2>
+		<ul id="friends-list">
+			<li><a href="http://resonate.io/main/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/res.jpg" alt="Resonate"/></a></li>
+			<li><a href="http://www.offf.ws/2013/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/offf.jpg" alt="Offf"/></a></li>
+			<li><a href="http://www.theatredenamur.be/saison20122013/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/n.jpg" alt="Théatre de Namur"/></a></li>
+			<li><a href="http://www.imal.org/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/imal.jpg" alt="Imal"/></a></li>
+			<li><a  href="http://node.vvvv.org/" target="_blank"><img src="http://kikk.be/2012/files/library/partenaires/node.png" alt="Node" /></a></li>
+		</ul>
+		
+		<div id="footer-bottom">
+			<div class="inner-footer">
+		
+				<div id="footer-left">
+					<div class="left">
+					 © 2012 KIKK Festival
+					 <a href="mailto:info@kikk.be">info@kikk.be</a>
+					 <a href="about.php">Newsletter</a>
+					</div>
+					 <a href="http://www.dogstudio.be/" class="ext-link footerCopyright">Designed by <strong id="dogstudio"><span>dogstudio</span></strong></a>
+				</div>
+				
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div>
+</footer>
+<!--end FOOTER-->
+    </div>
+</body>
+</html>

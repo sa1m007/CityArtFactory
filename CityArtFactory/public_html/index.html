@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+	
+<meta name="title" content="City Art Factory | Home">
+<title>City Art Factory | Home</title>
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+<!-- 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> -->	
+	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+	<script type="text/javascript" src="js/jquery.iosslider.js"></script>	
+	
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	
+	<link href="css/8.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">	
+	
+	<!--[if lte IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="stylesheet" href="css/simple-overlay.css">
+	<script type="text/javascript" src="js/jquery.bxslider.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/mobile_slider.css" />
+	<script src="js/modernizr.custom.js"></script>	
+	<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+	
+	<script type="text/javascript" src="js/ajaxloading/nprogress.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/ajaxloading/nprogress.css" />
+		
+	<style>
+		.request_button
+		{
+			color:#4c4c4c;
+		}
+		#bottom-slider .slider-controller#bottom-slider-prev1 {
+			margin: 0;
+			left: 20px;
+		}
+		#bottom-slider .slider-controller#bottom-slider-next1 {
+			margin: 0;
+			right: 20px;
+			left: inherit;
+		}
+		.welcome-area p{text-align: justify;}
+		
+		#bottom-slider .slider-controller#forthcoming-slider-prev {
+			margin:0;
+			left:20px;
+		}
+		#bottom-slider .slider-controller#forthcoming-slider-next {
+			margin:0;
+			right:20px; left:inherit;
+		}
+		#bottom-slider .slider-controller#forthcoming-slider-prev {
+			background-position:-73px -73px;
+		}
+		#bottom-slider .slider-controller#forthcoming-slider-next {
+			background-position:-73px 0;
+		}
+		#bottom-slider .slider-controller#forthcoming-slider-prev:hover {
+			background-position:0 -73px;
+		}
+		#bottom-slider .slider-controller#forthcoming-slider-next:hover {
+			background-position:0 0;
+		}
+
+		.forthcoming-slider .slider .item {
+			width: 500px !important;
+		}		
+		
+		.forthcoming-slider .slider .item img{
+			-webkit-transform: inherit !important;
+				  transform: inherit !important;						
+		}
+		.forthcoming-slider .slider .item:hover img{
+				-webkit-transform: inherit !important;
+				  transform: inherit !important;
+		}
+		
+		.forthcoming-slider h2
+		{			
+			background:none !important;
+			width:200px !important;
+			font-size: 0.8em !important;
+			line-height: 2em;
+			padding-right: 10px;
+			margin-bottom: 30px !important;
+			display: block;
+			text-transform: uppercase;
+			font-weight: normal;
+			color: #775f3e;
+		}
+		
+		.forthcoming-slider h3 {
+			width: 200px !important;
+			margin-top: 60px !important;
+			line-height: 1.8em !important;		
+			font-size:0.8em !important;	
+			color:#008845;
+		}
+		.forthcoming-slider span
+		{
+			font-size: inherit !important;
+			margin: 0 auto !important;
+			color: inherit !important;
+			font-family:  inherit !important;
+			font-style: normal !important;
+			text-align:center;
+			display:block;
+		}
+		
+		.forthcoming-slider .testimonials-carousel-thumbnail
+		{
+			    max-width:none;
+				margin:0;
+				width:100%;
+		}
+		
+		
+		.forthcoming-slider .testimonials-carousel-thumbnail img
+		{
+			    float: left;
+				width: 50%;
+				background: #FFF;
+				position: relative;
+				overflow: hidden;
+				margin:0;
+				border:none;
+		}
+		
+		.forthcoming-slider .testimonials-carousel-content
+		{
+			    position: relative;
+				float: right;
+				box-sizing: border-box;
+				vertical-align: middle;
+				padding-top: 80px;
+		}
+	</style>
+
+</head>
+
+
+
+
+<body class="desktop cbp-spmenu-push">
+	<div id="wrapper">
+		<!-- Header Navigation -->
+		<header id="banner">
+			<section id="banner-top">
+			
+				<ul id="socialLinks">					
+					<li><a href="#" title="Twitter" class="twitter" target="_blank">Twitter</a></li>
+					<li><a href="#" title="Facebook" class="facebook" target="_blank">Facebook</a></li>
+					<li><a href="#" title="Flickr" class="flickr" target="_blank">Flickr</a></li>															
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <strong id="headline_first_name"></strong>
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="navbar-login">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p class="text-center" id="headline_image">                                                                                 
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <strong><p class="text-left" id="headline_full_name"></p></strong>
+                                        <p class="text-left small" id="headline_email"></p>     
+                                        <p class="text-left small" id="headline_category"></p>                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="divider navbar-login-session-bg"></li>
+                        <li id="manageEvent"><a href="admin_artist.html">Manage Events <span class="glyphicon glyphicon-stats pull-right"></span></a></li>
+			            <li class="divider"></li>
+			            <li><a href="#" id="logOut">Sign Out <span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
+                    </ul>
+                </li>
+            </ul>
+			    <div class="register-link">
+			    	<a href="login.html">Login / Register</a>
+			    </div>
+			    <div style="clear:both"></div>
+			</section>
+			
+			
+			<nav id="menu">
+				<div id="logoBlock">
+					<div class="logoImage"></div>
+					<div class="logoText" data-content="City Art Factory">City Art Factory</div>
+				</div>
+				<ul id="nav">
+					<li><a class="selected" href="index.html">Home</a></li>
+					<li><a class="" href="company.html">Company Profile</a></li>
+					<li><a class="" href="programme.html">Programme</a></li>
+					<li><a class="" href="services.html">Services</a></li>
+					<li><a class="" href="art_tourism.html">Eco Art Tourism</a></li>
+					<li><a class="" href="egallery.html">E-Gallery</a></li>
+					<li><a class="" href="photo_archive.html">Photo Archive</a></li>
+					<li><a class="" href="contact.html">Contact us</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+		<div class="notification png_bg">
+				<a href="#" class="close"><img src="images/cross_grey_small.png" title="Close this notification" alt="close"></a>
+				<div id="message">					
+				</div>
+		</div>
+					
+		<div class="marquee-txt">
+				<marquee id="test" behavior="scroll" direction="left" scrollamount="4" onmouseover="document.all.test.stop()" onmouseout="document.all.test.start()">
+				Checkout our new gallery. Also we have some new talented artist joined recently.
+				</marquee>
+		</div>		
+		<!-- Slideshow -->
+		<div class="callbacks_container theme-default">		
+			
+			  <div id="slider" class="nivoSlider">
+					<img src="images/slider/1.jpg" data-thumb="images/slider/1.jpg" data-transition="boxRain" alt="" title="#htmlcaption" />
+					<img src="images/slider/2.jpg" data-thumb="images/slider/2.jpg" data-transition="boxRainReverse" alt="" title="#htmlcaption" />
+					<img src="images/slider/3.jpg" data-thumb="images/slider/3.jpg" data-transition="fold" alt="" title="#htmlcaption" />
+					<img src="images/slider/4.jpg" data-thumb="images/slider/4.jpg" data-transition="boxRainGrow" alt="" title="#htmlcaption" />
+					<img src="images/slider/5.jpg" data-thumb="images/slider/5.jpg" data-transition="boxRainGrow" alt="" title="#htmlcaption" />
+					<img src="images/slider/6.jpg" data-thumb="images/slider/6.jpg" data-transition="fold" alt="" title="#htmlcaption" />		
+					<img src="images/slider/7.jpg" data-thumb="images/slider/7.jpg" data-transition="boxRainGrow" alt="" title="#htmlcaption" />					
+					<img src="images/slider/8.jpg" data-thumb="images/slider/8.jpg" data-transition="boxRain" alt="" title="#htmlcaption" />
+					<img src="images/slider/9.jpg" data-thumb="images/slider/9.jpg" data-transition="boxRainReverse" alt="" title="#htmlcaption" />
+					<img src="images/slider/10.jpg" data-thumb="images/slider/10.jpg" data-transition="boxRainReverse" alt="" title="#htmlcaption" />
+					<img src="images/slider/11.jpg" data-thumb="images/slider/11.jpg" data-transition="fold" alt="" title="#htmlcaption" />
+					<img src="images/slider/12.jpg" data-thumb="images/slider/12.jpg" data-transition="boxRainGrow" alt="" title="#htmlcaption" />					
+					<img src="images/slider/13.jpg" data-thumb="images/slider/13.jpg" data-transition="boxRainGrow" alt="" title="#htmlcaption" />					
+					<img src="images/slider/14.jpg" data-thumb="images/slider/14.jpg" data-transition="boxRainGrow" alt="" title="#htmlcaption" />					
+					<img src="images/slider/15.jpg" data-thumb="images/slider/15.jpg" data-transition="boxRainGrow" alt="" title="#htmlcaption" />															
+			 </div>
+			 <div id="htmlcaption" class="nivo-html-caption">
+				We have captured few moments of our past events for you
+			 </div>		  
+		</div>
+	
+		<div class="clear"></div>
+	
+		<!-- Welcome words -->
+		
+		
+		<div id="stage-container">
+			<div id="home-page" class="page">				
+				<div class="page-wrapper">
+					<div class="inner-content">					
+						<div class="welcome-area">
+							<div class="wrap">
+								<h1>To promote and nurture the best talents from the new generation and to give them financial freedom</h1>
+								<p>The founder,  Mr.Santanu Roy, hit upon the ‘City Art Factory’ (CAF) name in 2010. He took the word 
+								‘…Art Factory’ due to immense number of proliferation of talent in his native place Kolkata and throughout the state called West Bengal.
+								<br><br><strong>True to its motto, the CAF has emphasized the importance of high quality, ensuring that buyers, art lovers to buy beautiful, eye soothing creations from CAF again and again.</strong></p>
+								<a href="company.html" class="request_button">Read More</a>
+							</div>
+						</div>					
+					</div>
+				</div>													
+			</div>
+			
+		</div>
+			
+			
+		<div class="clear"></div>			
+		
+		<!-- Artist Slider -->
+		
+		<div class="artist-slider">
+		<h1>Our valuable Artists</h1>
+		<div class="border_design_1">	</div>
+		<div id="bottom-slider">
+			<a href="#" id="bottom-slider-prev" class="slider-controller" style="cursor: pointer;">prev</a>
+			<a href="#" id="bottom-slider-next" class="slider-controller" style="cursor: pointer;">next</a>			
+			<div class="iosSlider" style="margin:0 !important">
+			<section class="infinite-slider" id="infinite-slider">			
+				<ul class="slider">
+											
+				</ul>
+			</section>
+			</div>
+			</div>
+			<div class="border_design_1">	</div>
+			<div id="bottom-slider">
+				<a href="#" id="bottom-slider-prev2" class="slider-controller" style="cursor: pointer;">prev</a>
+				<a href="#" id="bottom-slider-next2" class="slider-controller" style="cursor: pointer;">next</a>			
+				<div class="iosSlider" style="margin:0 !important">
+				<section class="infinite-slider2" id="infinite-slider2">			
+					<ul class="slider">
+						
+					</ul>
+				</section>
+				</div>
+			</div>
+		</div>
+		<!--FOOTER-->
+		<footer id="footer">
+			
+						
+			<div id="footerContent">			
+				<h1>Our beloved guest artists</h1>
+				 <div class="testimonials-slider">
+				 
+					  <div class="slide">
+							<div class="testimonials-carousel-thumbnail"><img width="120" alt="" src="images/guest/image-04.jpg"></div>
+								<div class="testimonials-carousel-context">
+                                <div class="testimonials-name">Mr. Niranjan Pradhan</div>
+                                <div class="testimonials-carousel-content"><p>'City Art Factory' has been doing  noble job by introducing art to the common people to get rid of the tremendous mental stress of their daily life and to give mental relief with the touch of beautiful  eye soothing creations all over the country even in abroad.  I am feeling proud to be a part of this esteemed organization.</p></div>
+                            </div>
+                      </div>
+					  
+                      <div class="slide">
+							<div class="testimonials-carousel-thumbnail"><img width="120" alt="" src="images/guest/image-01.jpg"></div>
+								<div class="testimonials-carousel-context">
+                                <div class="testimonials-name">Mr. Wasim  R. Kapoor</div>
+                                <div class="testimonials-carousel-content"><p>I personally know Mr. Santanu Roy  the founder and the curator of ‘City Art Factory ‘ and ‘City art Foundation’ for his  serious presentation and extraordinary eye soothing curatorial job.  All the viewers will get mental pleasure by viewing this grade of art exhibition with amazing ambiance created by them.</p></div>
+                            </div>
+                      </div>
+                      
+                      <div class="slide">
+							<div class="testimonials-carousel-thumbnail"><img width="120" alt="" src="images/guest/image-02.jpg"></div>
+								<div class="testimonials-carousel-context">
+                                <div class="testimonials-name">Mr. Subrata Gangopadhyay</div>
+                                <div class="testimonials-carousel-content"><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal..</p></div>
+                            </div>
+                      </div>
+                      
+                      <div class="slide">
+							<div class="testimonials-carousel-thumbnail"><img width="120" alt="" src="images/guest/image-03.jpg"></div>
+								<div class="testimonials-carousel-context">
+                                <div class="testimonials-name">Late Sunil Das</div>
+                                <div class="testimonials-carousel-content"><p>To bring equality within social and economic life of an artist ‘City Art Factory’ has come up with new and noble ideas. ‘City Art Factory’ has already taken few steps to bring equality between business of art and its’ culture.
+I am enough confident that this organization will take a representative role to enrich each condition of all artists.</p></div>
+                            </div>
+                      </div>					  
+					  
+					  <div class="slide">
+							<div class="testimonials-carousel-thumbnail"><img width="120" alt="" src="images/guest/image-05.jpg"></div>
+								<div class="testimonials-carousel-context">
+                                <div class="testimonials-name">Mr. Shankar Ghosh</div>
+                                <div class="testimonials-carousel-content"><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal..</p></div>
+                            </div>
+                      </div>
+                      
+                </div>
+                
+					<!-- END DEMO -->
+                <div class="clear"></div>
+				<h1 class="second">Our beloved sponsors</h1>
+				<div class="iosSlider">
+				<!-- slider -->
+					<div class="partnerSlider">
+						<ul id="sliderPartner-list" >
+							<li class="item"><a class="ext-link" href="http://www.checkthis.com/" target="_blank"><img src="images/sponsor1.png" alt="Checkthis"></a></li>
+							<li class="item"><a class="ext-link" href="http://www.awt.be/" target="_blank"><img src="images/sponsor2.png" alt="Vedett"></a></li>
+							<li class="item"><a class="ext-link" href="http://www.wacom.be/" target="_blank"><img src="images/sponsor3.png" alt="Wacom"></a></li>
+							<li class="item"><a class="ext-link" href="http://www.namur.be/" target="_blank"><img src="images/sponsor4.png" alt="Namur Capitale"></a></li>
+							<li class="item"><a class="ext-link" href="http://www.audioplus.be/" target="_blank"><img src="images/sponsor5.png" alt="Audio plus"></a></li>
+							<li class="item"><a class="ext-link" href="http://jellycube.be/" target="_blank"><img src="images/sponsor6.png" alt="Jelly cube"></a></li>
+							<li class="item"><a class="ext-link" href="https://mobilevikings.com/fr/" target="_blank"><img src="images/sponsor7.png" alt="Mobile Viking"></a></li>
+						</ul>
+					</div>
+				</div>								
+				
+				<div class="gallery-link">
+						<h3>Forthcoming events</h3>	
+						<h3>You are cordially invited</h3>
+				</div>
+				<div id="bottom-slider">
+					<a href="#" id="forthcoming-slider-prev" class="slider-controller" style="cursor: pointer;">prev</a>
+					<a href="#" id="forthcoming-slider-next" class="slider-controller" style="cursor: pointer;">next</a>			
+					<div class="iosSlider" style="margin:0 !important">
+					<section class="forthcoming-slider" id="forthcoming-slider">			
+						<ul class="slider">
+														
+						</ul>
+						<div class="clear"></div>
+					</section>
+					</div>
+					</div>
+				</div>				
+				
+				<div class="clear"></div>
+				
+				<div id="footer-bottom">
+					<div class="inner-footer">
+				
+						<div id="footer-left">
+							<div class="left">
+							 © 2016 City Art Factory. All Rights Reserved
+							 <span>  | <span>
+							 <a href="#" class="email"><p> cityartfactory@gmail.com </p></a>							 
+							</div>
+							 <a href="#" class="ext-link footerCopyright">Designed by </a>
+						</div>
+						
+						<div class="clear"></div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!--end FOOTER-->
+	 
+    </div>		
+	<!--end Wrapper-->			
+
+	<script src="js/simple-overlay.js"></script>	 
+	<script src="js/classie.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script src="js/modules/index.js"></script>
+	<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    jQuery(function(){
+        jQuery('#slider').nivoSlider({pauseOnHover: false,pauseTime: 2500});
+    });
+    </script>			
+		
+</body>
+
+</html>

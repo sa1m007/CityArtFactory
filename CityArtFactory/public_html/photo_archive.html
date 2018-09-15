@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+	
+<meta name="title" content="City Art Factory | Photo Archive">
+<title>City Art Factory | Photo Archive</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+<!-- 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> -->
+	<!--[if lte IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	    <!--[if (gte IE 9) | (!IE)]><!-->
+    <!--<![endif]-->
+
+	</style>
+		<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<link href="css/thumbnail-slider.css" rel="stylesheet" />
+    <script src="js/thumbnail-slider.js" type="text/javascript"></script>
+
+	    <link rel="stylesheet" type="text/css" href="css/transitions.css" media="all" />
+		
+	 <script src="js/jquery.collagePlus.js"></script>
+    <script src="js/jquery.removeWhitespace.js"></script>
+    <script src="js/jquery.collageCaption.js"></script>
+
+
+	<script type="text/javascript" src="js/ajaxloading/nprogress.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/ajaxloading/nprogress.css" />	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modules/commonFunction.js"></script>
+		<link href="css/8.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+  
+	<style>
+	@media all and (max-width: 780px) {
+		ul.polaroids1 img {
+		width: 200px ! important;
+	}
+
+	ul.polaroids1 li{
+		width: 200px ! important;
+	}
+	}
+	</style>
+    <script type="text/javascript">
+
+    // All images need to be loaded for this plugin to work so
+    // we end up waiting for the whole window to load in this example
+    $(window).load(function () {
+        $(document).ready(function(){
+            collage();
+            $('.Collage').collageCaption();
+        });
+    });
+
+
+    // Here we apply the actual CollagePlus plugin
+    function collage() {
+        $('.Collage').removeWhitespace().collagePlus(
+            {
+                'fadeSpeed'     : 2000,
+                'targetHeight'  : 200,
+                'effect'        : 'effect-4',
+                'direction'     : 'vertical'
+            }
+        );
+    };
+
+    // This is just for the case that the browser window is resized
+    var resizeTimer = null;
+    $(window).bind('resize', function() {
+        // hide all the images until we resize them
+        $('.Collage .Image_wrapper').css("opacity", 0);
+        // set a timer to re-apply the plugin
+        if (resizeTimer) clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(collage, 200);
+    });
+
+    </script>
+	
+</head>
+
+
+
+
+<body class="desktop">
+	<div id="thumbnail-slider" style="display:none;">
+            <div class="inner" style="width:100% !important;">
+                <ul>
+                    <li><a class="thumb" href="images/archive/00.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/0.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/1.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/2.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/2_2.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/3.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/4.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/5.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/6.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/7.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/8.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/9.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/11.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/13.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/14.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/15.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/16.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/17.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/18.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/19.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/20.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/21.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/22.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/23.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/24.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/25.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/26.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/27.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/28.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/29.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/30.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/31.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/32.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/34.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/35.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/37.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/38.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/39.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/40.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/41.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/42.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/43.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/44.jpg"></a></li>					
+					<li><a class="thumb" href="images/archive/46.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/47.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/49.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/50.jpg"></a></li>   
+					<li><a class="thumb" href="images/archive/51.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/54.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/55.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/56.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/57.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/58.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/59.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/60.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/61.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/62.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/63.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/64.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/65.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/66.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/67.jpg"></a></li>					
+					<li><a class="thumb" href="images/archive/69.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/70.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/71.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/72.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/73.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/74.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/75.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/76.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/77.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/78.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/79.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/80.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/81.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/82.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/83.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/84.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/86.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/87.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/88.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/89.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/90.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/91.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/92.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/93.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/94.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/95.jpg"></a></li>
+					<li><a class="thumb" href="images/archive/96.jpg"></a></li>
+                </ul>
+            </div>
+            <div id="closeBtn">CLOSE</div>
+        </div>
+
+	<div id="wrapper">
+		<!-- Header Navigation -->
+		<header id="banner">
+			<section id="banner-top">
+			
+				<ul id="socialLinks">					
+					<li><a href="#" title="Twitter" class="twitter" target="_blank">Twitter</a></li>
+					<li><a href="#" title="Facebook" class="facebook" target="_blank">Facebook</a></li>
+					<li><a href="#" title="Flickr" class="flickr" target="_blank">Flickr</a></li>															
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <strong id="headline_first_name"></strong>
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="navbar-login">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p class="text-center" id="headline_image">                                                                                 
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <strong><p class="text-left" id="headline_full_name"></p></strong>
+                                        <p class="text-left small" id="headline_email"></p>     
+                                        <p class="text-left small" id="headline_category"></p>                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="divider navbar-login-session-bg"></li>
+                        <li id="manageEvent"><a href="admin_artist.html">Manage Events <span class="glyphicon glyphicon-stats pull-right"></span></a></li>
+			            <li class="divider"></li>
+			            <li><a href="#" id="logOut">Sign Out <span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
+                    </ul>
+                </li>
+            </ul>
+			    <div class="register-link">
+			    	<a href="login.html">Login / Register</a>
+			    </div>
+			    <div style="clear:both"></div>
+			</section>
+			<nav id="menu">
+				<div id="logoBlock">
+					<div class="logoImage"></div>
+					<div class="logoText" data-content="City Art Factory">City Art Factory</div>
+				</div>
+				<ul id="nav">
+					<li><a class="" href="index.html">Home</a></li>
+					<li><a class="" href="company.html">Company Profile</a></li>
+					<li><a class="" href="programme.html">Programme</a></li>
+					<li><a class="" href="services.html">Services</a></li>
+					<li><a class="" href="art_tourism.html">Eco Art Tourism</a></li>
+					<li><a class="" href="egallery.html">E-Gallery</a></li>
+					<li><a class="selected" href="photo_archive.html">Photo Archive</a></li>
+					<li><a class="" href="contact.html">Contact us</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+		
+		<div class="clear"></div>
+	
+		<!-- Content Area -->							
+	
+		<!-- Inner Mid Area Start -->
+		<div class="inner-mid-area-egallery">
+			<div>
+				<div class="row project-header" style="padding-bottom:60px;">
+					<div class="columns" style="width:auto;">
+						<h1>Welcome to Photo Archive</h1>
+							<p class="lead"></p>							
+					</div>						
+				</div>		
+				
+				<div>
+					<ul class="polaroids1 Collage effect-parent" id="myGallery">
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/00.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/0.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/1.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/2.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/2_2.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/3.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/4.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/5.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/6.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/7.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/8.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/9.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/11.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/13.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/14.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/15.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/16.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/17.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/18.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/19.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/20.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/21.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/22.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/23.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/24.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/25.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/26.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/27.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/28.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/29.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/30.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/31.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/32.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/34.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/35.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/37.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/38.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/39.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/40.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/41.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/42.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/43.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/44.jpg"></a></li>						
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/46.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/47.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/49.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/50.jpg"></a></li>	
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/51.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/54.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/55.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/56.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/57.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/58.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/59.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/60.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/61.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/62.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/64.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/65.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/66.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/67.jpg"></a></li>						
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/69.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/70.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/71.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/72.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/73.jpg"></a></li>		
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/74.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/75.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/76.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/77.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/78.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/79.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/80.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/81.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/82.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/83.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/84.jpg"></a></li>						
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/86.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/87.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/88.jpg"></a></li>	
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/89.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/90.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/91.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/92.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/93.jpg"></a></li>		
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/94.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/95.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/archive/96.jpg"></a></li>	
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/1.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/2.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/3.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/4.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/5.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/6.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/7.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/8.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/9.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/10.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/11.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/12.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/13.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/14.jpg"></a></li>
+						<li class="Image_wrapper"><a href="#" title=""><img alt="" src="images/slider/15.jpg"></a></li>												
+					</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+		</div>
+		</div>
+<!-- Inner Mid Area End -->
+
+		<div class="clear"></div>	
+			
+		<!--FOOTER-->
+		<div id="footer-bottom">
+					<div class="inner-footer">
+				
+						<div id="footer-left">
+							<div class="left">
+							 © 2016 City Art Factory. All Rights Reserved
+							 <span>  | <span>
+							 <a href="#" class="email"><p> cityartfactory@gmail.com </p></a>							 
+							</div>
+							 <a href="#" class="ext-link footerCopyright">Designed by </a>
+						</div>
+						
+						<div class="clear"></div>
+					</div>
+				</div>
+		<!--end FOOTER-->
+	 
+		
+    </div>
+	<!--end Wrapper-->
+	
+  <script>
+            //Note: this script should be placed at the bottom of the page, or after the slider markup. It cannot be placed in the head section of the page.
+            var thumbSldr = document.getElementById("thumbnail-slider");
+            var closeBtn = document.getElementById("closeBtn");
+            var galleryImgs = document.getElementById("myGallery").getElementsByTagName("li");
+            for (var i = 0; i < galleryImgs.length; i++) {
+                galleryImgs[i].index = i;
+                galleryImgs[i].onclick = function (e) {
+                    var li = this;
+                    thumbSldr.style.display = "block";
+                    mcThumbnailSlider.init(li.index);
+                };
+            }
+
+            thumbSldr.onclick = closeBtn.onclick = function (e) {
+                //This event will be triggered only when clicking the area outside the thumbs or clicking the CLOSE button
+                thumbSldr.style.display = "none";
+            };
+        </script>
+</body>
+
+</html>

@@ -1,0 +1,58 @@
+
+2017-07-29 06:31:30pm - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '124)' at line 1 , Line number - 367
+2017-07-29 06:33:14pm - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '124)' at line 1 , Line number - 367
+2017-07-29 06:34:07pm - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '124)' at line 1 , Line number - 367
+2017-07-30 02:13:35pm - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '112,109)' at line 1 , Line number - 367
+2017-08-23 03:19:47pm - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 , Line number - 187
+2017-08-23 03:20:12pm - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 , Line number - 187
+2017-08-23 04:19:21pm - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 1 , Line number - 405
+2017-08-23 04:55:15pm - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'POSITION' cannot be null , Line number - 163
+2017-11-15 05:39:44pm - SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '34' for key 'PRIMARY' , Line number - 477
+2018-04-14 08:45:19am - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10044ms , Line number - 36
+2018-04-14 08:45:19am - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10187ms , Line number - 53
+2018-04-14 08:53:01am - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10001ms , Line number - 77
+2018-04-14 08:53:01am - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 128
+2018-04-17 11:20:13am - SQLSTATE[HY000] [2002] Resource temporarily unavailable , Line number - 33
+2018-04-17 11:20:13am - SQLSTATE[HY000] [2002] Resource temporarily unavailable
+2018-04-17 11:20:13am - SQLSTATE[HY000] [2002] Resource temporarily unavailable , Line number - 33
+2018-04-28 09:40:07am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 27
+2018-05-18 11:39:19am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 24
+2018-05-18 11:39:19am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 24
+2018-05-18 11:39:19am - SQLSTATE[HY000] [2006] MySQL server has gone away
+2018-05-28 02:00:15am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 24
+2018-05-28 02:00:15am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 24
+2018-05-28 02:00:15am - SQLSTATE[HY000] [2006] MySQL server has gone away
+2018-06-25 06:57:52am - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10251ms , Line number - 36
+2018-06-25 06:57:52am - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10250ms , Line number - 53
+2018-07-09 04:04:50pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 36
+2018-07-09 04:04:50pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10279ms , Line number - 53
+2018-07-09 04:06:45pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 36
+2018-07-09 04:06:45pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 53
+2018-07-09 04:08:09pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10001ms , Line number - 128
+2018-07-09 04:08:19pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10260ms , Line number - 128
+2018-07-09 04:08:29pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 77
+2018-07-09 04:08:40pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10001ms , Line number - 77
+2018-07-09 04:11:41pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 77
+2018-07-09 04:11:51pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10002ms , Line number - 128
+2018-07-09 04:12:06pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 39
+2018-07-09 04:36:48pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10001ms , Line number - 36
+2018-07-09 04:36:48pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10101ms , Line number - 53
+2018-07-09 04:42:25pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 39
+2018-07-09 04:43:01pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10045ms , Line number - 77
+2018-07-09 04:43:11pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10221ms , Line number - 128
+2018-07-09 04:49:04pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10131ms , Line number - 128
+2018-07-09 04:49:14pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 77
+2018-07-09 04:49:24pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10173ms , Line number - 77
+2018-07-09 04:49:34pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10002ms , Line number - 128
+2018-07-09 04:52:38pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10001ms , Line number - 36
+2018-07-09 04:52:38pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10002ms , Line number - 53
+2018-07-09 05:01:30pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10001ms , Line number - 36
+2018-07-09 05:01:30pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10146ms , Line number - 53
+2018-07-10 05:27:32am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 24
+2018-08-14 11:11:55pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10001ms , Line number - 77
+2018-08-14 11:11:56pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10000ms , Line number - 128
+2018-08-14 11:11:56pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10008ms , Line number - 77
+2018-08-14 11:11:56pm - SQLSTATE[HY000]: General error: 9001 Max connect timeout reached while reaching hostgroup 1029 after 10003ms , Line number - 128
+2018-09-10 07:12:02am - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'POSITION' cannot be null , Line number - 163
+2018-09-15 10:04:50am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 29
+2018-09-15 10:04:50am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 29

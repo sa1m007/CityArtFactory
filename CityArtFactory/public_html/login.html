@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+	
+<meta name="title" content="City Art Factory | Login">
+<title>City Art Factory | Contact Us</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0, user-scalable=no">	 
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<link href="css/bootstrap.min.css" rel="stylesheet"> 
+	<link href="css/8.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/ajaxloading/nprogress.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/ajaxloading/nprogress.css" />
+	<script src="js/uploadify/jquery.uploadify.js" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="js/uploadify/uploadify.css"/>
+	<!--[if lte IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<script type="text/javascript" src="js/modules/login.js"></script>
+
+<style>
+
+.container
+{
+	font-family: 'Oxygen', sans-serif !important;
+}
+
+h3
+{
+	color: #775f3e;
+}
+
+
+</style>
+</head>
+
+
+<body class="desktop">
+	<div id="wrapper">
+		<!-- Header Navigation -->
+		<header id="banner">
+			<section id="banner-top">
+			
+				<ul id="socialLinks">					
+					<li><a href="#" title="Twitter" class="twitter" target="_blank">Twitter</a></li>
+					<li><a href="#" title="Facebook" class="facebook" target="_blank">Facebook</a></li>
+					<li><a href="#" title="Flickr" class="flickr" target="_blank">Flickr</a></li>															
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <strong id="headline_first_name"></strong>
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="navbar-login">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p class="text-center" id="headline_image">                                                                                 
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <strong><p class="text-left" id="headline_full_name"></p></strong>
+                                        <p class="text-left small" id="headline_email"></p>     
+                                        <p class="text-left small" id="headline_category"></p>                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="divider navbar-login-session-bg"></li>
+                        <li><a href="#">Account Settings <span class="glyphicon glyphicon-cog pull-right"></span></a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Manage Events <span class="glyphicon glyphicon-stats pull-right"></span></a></li>
+			            <li class="divider"></li>
+			            <li><a href="#">Sign Out <span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
+                    </ul>
+                </li>
+            </ul>
+			    <div class="register-link">
+			    	<a href="#">Login / Register</a>
+			    </div>
+			    <div style="clear:both"></div>
+			</section>
+			<nav id="menu">
+				<div id="logoBlock">
+					<div class="logoImage"></div>
+					<div class="logoText" data-content="City Art Factory">City Art Factory</div>
+				</div>
+				<ul id="nav">
+					<li><a class="" href="index.html">Home</a></li>
+					<li><a class="" href="company.html">Company Profile</a></li>
+					<li><a class="" href="programme.html">Programme</a></li>
+					<li><a class="" href="services.html">Services</a></li>
+					<li><a class="" href="art_tourism.html">Eco Art Tourism</a></li>
+					<li><a class="" href="egallery.html">E-Gallery</a></li>
+					<li><a class="" href="photo_archive.html">Photo Archive</a></li>
+					<li><a class="selected" href="contact.html">Contact us</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+		
+		<div class="clear"></div>
+	
+		<div class="container" style="margin-top:5px;">
+				
+		
+		<div class="row">
+			<div class="alert fade in" id="message">			    			    
+			</div>
+			
+			<div class="col-sm-4 col-md-4 col-lg-4">
+		  
+				<div class="panel">
+					<div class="panel-heading">	
+						<h3 class="">
+							<i class="icon-envelope main-color"></i>
+							Login
+						</h3>
+					</div>
+					<div class="panel-body">
+					<!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->						
+						<form role="form" id="loginForm">							 							  							  
+							  <div class="form-group">
+							<input type="email" class="form-control" id="email_login" name="email_login" required="required" placeholder="Email Address">							
+							  </div>
+							  <div class="form-group">
+							<input type="password" class="form-control" id="password_login" name="password_login" required="required" placeholder="Password">							
+							  </div>		
+							  <div class="form-group">
+							  <select name="category_type_login" id="category_type_login" class="form-control">
+							  		<option value="Admin">Admin</option>
+									<option value="Artist">Artist</option>
+									<option value="Art Group">Art Group</option>
+									<option value="Institute">Institute</option>
+									<option value="Buyer">Buyer</option>
+									<option value="Dealer">Dealer</option>
+									<option value="Collector">Collector</option>
+									<option value="Others">Others</option>
+							  </select>		
+							   </div>			  						  			    						 						 					
+						  <button type="submit" id="loginSubmit" class="btn btn-primary btn-lg" style="display: block; margin-top: 10px;">Login</button>
+						</form>
+					<!-- END CONTACT FORM -->
+					</div>
+				</div>
+			</div>
+		   		
+		   	<div class="col-sm-8 col-md-8 col-lg-8">
+		  
+				<div class="panel">
+					<div class="panel-heading">	
+						<h3 class="">
+							<i class="icon-envelope main-color"></i>
+							Not a Member Yet ?     Register  Here
+						</h3>
+					</div>
+					<div class="panel-body">
+					<!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
+				
+						<form role="form" id="registrationForm">
+							 <div class="form-group">
+							 <label class="control-label" for="email" style="display: inline-block;margin-bottom: 10px;font-weight: 700;">Are you an : </label>
+							 <select name="category_type" class="form-control">
+									<option value="Artist">Artist</option>
+									<option value="Art Group">Art Group</option>
+									<option value="Institute">Institute</option>
+									<option value="Buyer">Buyer</option>
+									<option value="Dealer">Dealer</option>
+									<option value="Collector">Collector</option>
+									<option value="Others">Others</option>
+							  </select>
+							  </div>
+							  <div class="form-group">
+							<input type="text" class="form-control" id="name_user" name="name_user" placeholder="Name" required="required">
+							<span class="help-block" style="display: none;">Please enter your name.</span>
+							  </div>
+							  <div class="form-group">
+							  <input type="tel" class="form-control" name="phoneno" placeholder="Phone Number" id="phone" required="required">							
+							<span class="help-block" style="display: none;">Please enter your phone number.</span>
+							  </div>							  
+							  <div class="form-group">
+							<input type="email" class="form-control" id="email" name="email" placeholder="Email Address" required="required">
+							<span class="help-block" style="display: none;">Please enter a valid e-mail address.</span>
+							  </div>
+							  <div class="form-group">
+							<input type="password" class="form-control" id="password" name="password" placeholder="Password" required="required">
+							<span class="help-block" style="display: none;">Please enter a valid password.</span>
+							  </div>							  
+						  <div class="form-group">
+						<textarea rows="5" cols="100" class="form-control" id="message_text" name="address" placeholder="Location"></textarea>
+						<span class="help-block" style="display: none;">Please enter your address</span>
+						  </div>			     
+						  <div class="form-group">
+						  	<div id="queue"></div>
+							<input id="file_upload"  class="form-control" name="file_upload" type="file" multiple="true"/>							
+						</div>
+						<div class="notification png_bg">
+										<a href="#" class="close"><img src="images/cross_grey_small.png" title="Close this notification" alt="close"></a>
+										<div id="uploaderr">
+											This is a Content Box. You can put whatever you want in it. By the way, you can close this notification with the top-right cross.
+										</div>
+						</div>
+						  <div class="form-group">					
+							 <div class="checkbox">
+								  <label>
+									<input type="checkbox" value="Y" name="offer_ind">
+									<span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+									I agree to receive email updates about current exhibitions , events  and special offers
+								  </label>
+							 </div>						 
+					
+							</div>
+						  <button type="submit" id="registerSubmit" class="btn btn-primary btn-lg" style="display: block; margin-top: 10px;">Register</button>
+						</form>
+					<!-- END CONTACT FORM -->
+					</div>
+				</div>
+			</div>
+			
+			
+			
+	</div> <!-- /container -->
+
+		
+		<div class="clear"></div>	
+			
+		<!--FOOTER-->
+		<div id="footer-bottom">
+					<div class="inner-footer">
+				
+						<div id="footer-left">
+							<div class="left">
+							 © 2016 City Art Factory. All Rights Reserved
+							 <span>  | <span>
+							 <a href="#" class="email"><p> cityartfactory@gmail.com </p></a>							 
+							</div>
+							 <a href="#" class="ext-link footerCopyright">Designed by </a>
+						</div>
+						
+						<div class="clear"></div>
+					</div>
+				</div>
+		<!--end FOOTER-->
+	 
+		
+    </div>
+	<!--end Wrapper-->	
+
+</body>
+
+</html>

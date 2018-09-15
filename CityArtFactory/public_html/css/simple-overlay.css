@@ -1,0 +1,262 @@
+/* Simple Overlay */
+
+.simple-overlay-bg { background-color: rgba(0,0,0,.6)}
+  .simple-overlay .close > div > div:before,
+.simple-overlay .close > div > div:after{
+  background-color: #fff;
+}
+.simple-overlay .close > div:before,
+.simple-overlay .close > div:after,
+.simple-overlay .prev.touch:before,
+.simple-overlay .prev.touch:after,
+.simple-overlay .next.touch:before,
+.simple-overlay .next.touch:after{
+  background-color: #fff;
+}
+
+.simple-overlay-open{
+	overflow: hidden;
+}
+.simple-overlay-bg{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+  background-color: rgba( 255, 255, 255, .96 );
+}
+.simple-overlay{
+  position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 101;
+	display: none;
+	padding: 40px 30px;
+}
+.simple-overlay > div{
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+.simple-overlay .wrap-slide{
+  display: table-cell;
+  vertical-align: middle;
+  line-height: 0;
+}
+.simple-overlay figure{
+  position: relative;
+  margin: 0 auto;
+}
+
+.simple-overlay img{
+	max-width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+.simple-overlay .close{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+	outline: none;
+}
+.simple-overlay .close > div:before,
+.simple-overlay .close > div:after,
+.simple-overlay .close > div > div:before,
+.simple-overlay .close > div > div:after{
+  -o-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -webkit-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+}
+.simple-overlay .close > div{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  left: 0;
+  width: 40px;
+  margin: 0 auto;
+}
+.simple-overlay .close > div > div,
+.simple-overlay .prev.touch > div,
+.simple-overlay .next.touch > div{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 20px;
+  height: 1px;
+  margin: auto;
+}
+.simple-overlay .close > div > div:before,
+.simple-overlay .close > div > div:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 0px;
+  height: 1px;
+  background-color: #000;
+}
+.simple-overlay .close > div > div:before{
+  right: 50%;
+}
+.simple-overlay .close > div > div:after{
+  left: 50%;
+}
+.simple-overlay.prev-o .close > div > div:before,
+.simple-overlay.prev-o .close > div > div:after,
+.simple-overlay.next-o .close > div > div:before,
+.simple-overlay.next-o .close > div > div:after,
+.simple-overlay .prev.touch > div:before,
+.simple-overlay .prev.touch > div:after,
+.simple-overlay .next.touch > div:before,
+.simple-overlay .next.touch > div:after,
+.simple-overlay .prev.touch:before,
+.simple-overlay .prev.touch:after,
+.simple-overlay .next.touch:before,
+.simple-overlay .next.touch:after{
+  width: 10px;
+}
+.simple-overlay .close > div:before,
+.simple-overlay .close > div:after,
+.simple-overlay .prev.touch:before,
+.simple-overlay .prev.touch:after,
+.simple-overlay .next.touch:before,
+.simple-overlay .next.touch:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  margin: auto;
+  background-color: #000;
+}
+.simple-overlay .close > div > div,
+.simple-overlay .close > div:before,
+.simple-overlay .close > div:after{
+	opacity: 0.333;
+}
+.simple-overlay .close:hover > div > div,
+.simple-overlay .close:hover > div:before,
+.simple-overlay .close:hover > div:after,
+.simple-overlay.touch .close > div > div,
+.simple-overlay.touch .close > div:before,
+.simple-overlay.touch .close > div:after,
+.simple-overlay.prev-o .close > div > div,
+.simple-overlay.prev-o .close > div:before,
+.simple-overlay.prev-o .close > div:after,
+.simple-overlay.next-o .close > div > div,
+.simple-overlay.next-o .close > div:before,
+.simple-overlay.next-o .close > div:after{
+	opacity: 1;
+}
+.simple-overlay .close > div:before,
+.simple-overlay .close > div:after{
+  width: 20px;
+}
+.simple-overlay .close > div:before{
+  -ms-transform: translateX( 0px ) rotate( 45deg ) translateY( 0px );
+	-webkit-transform: translateX( 0px ) rotate( 45deg ) translateY( 0px );
+	transform: translateX( 0px ) rotate( 45deg ) translateY( 0px );
+}
+.simple-overlay .close > div:after{
+  -ms-transform: translateX( 0px ) rotate( -45deg ) translateY( 0px );
+	-webkit-transform: translateX( 0px ) rotate( -45deg ) translateY( 0px );
+	transform: translateX( 0px ) rotate( -45deg ) translateY( 0px );
+}
+.simple-overlay.prev-o .close > div:before,
+.simple-overlay.prev-o .close > div:after,
+.simple-overlay.next-o .close > div:before,
+.simple-overlay.next-o .close > div:after{
+  width: 10px;
+}
+.simple-overlay.prev-o .close > div:before,
+.simple-overlay .prev.touch:before{
+  -ms-transform: translateX( -4px ) rotate( 45deg ) translateY( 5px );
+	-webkit-transform: translateX( -4px ) rotate( 45deg ) translateY( 5px );
+	transform: translateX( -4px ) rotate( 45deg ) translateY( 5px );
+}
+.simple-overlay.prev-o .close > div:after,
+.simple-overlay .prev.touch:after{
+  -ms-transform: translateX( -4px ) rotate( -45deg ) translateY( -5px );
+	-webkit-transform: translateX( -4px ) rotate( -45deg ) translateY( -5px );
+	transform: translateX( -4px ) rotate( -45deg ) translateY( -5px );
+}
+.simple-overlay.next-o .close > div:before,
+.simple-overlay .next.touch:before{
+  -ms-transform: translateX( 4px ) rotate( 45deg ) translateY( -5px );
+	-webkit-transform: translateX( 4px ) rotate( 45deg ) translateY( -5px );
+	transform: translateX( 4px ) rotate( 45deg ) translateY( -5px );
+}
+.simple-overlay.next-o .close > div:after,
+.simple-overlay .next.touch:after{
+  -ms-transform: translateX( 4px ) rotate( -45deg ) translateY( 5px );
+	-webkit-transform: translateX( 4px ) rotate( -45deg ) translateY( 5px );
+	transform: translateX( 4px ) rotate( -45deg ) translateY( 5px );
+}
+.simple-overlay .prev,
+.simple-overlay .next{
+  position: absolute;
+  display: none;
+  padding: 0;
+  border: none;
+	background-color: rgba( 0, 0, 0, 0 ); /* fixes <ie11 glitch where transparent links are not click-able when elements behind them have color */
+  cursor: pointer;
+  outline: none;
+}
+.simple-overlay figure .prev,
+.simple-overlay figure .next{
+  top: 0;
+  bottom: 0;
+  width: 50%;
+}
+.simple-overlay.grouped .prev,
+.simple-overlay.grouped .next{
+  display: block;
+}
+.simple-overlay figure .prev{
+  left: 0;
+}
+.simple-overlay figure .next{
+  right: 0;
+}
+.simple-overlay .prev.touch,
+.simple-overlay .next.touch{
+  top: 0;
+  right: 0;
+  left: 0;
+  display: none;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+.simple-overlay.touch .prev.touch,
+.simple-overlay.touch .next.touch{
+  display: block;
+}
+.simple-overlay .prev.touch{
+  -ms-transform: translateX( -40px );
+	-webkit-transform: translateX( -40px );
+	transform: translateX( -40px );
+}
+.simple-overlay .next.touch{
+  -ms-transform: translateX( 40px );
+	-webkit-transform: translateX( 40px );
+	transform: translateX( 40px );
+}
+.simple-overlay .prev.touch > div,
+.simple-overlay .next.touch > div{
+  background-color: #000;
+}

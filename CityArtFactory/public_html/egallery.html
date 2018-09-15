@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+	
+<meta name="title" content="City Art Factory | Artists">
+<title>City Art Factory | Programme</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/ajaxloading/nprogress.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/ajaxloading/nprogress.css" />	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/modules/commonFunction.js"></script>
+		<link href="css/8.css" rel="stylesheet" type="text/css">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<link href="css/thumbnail-slider.css" rel="stylesheet" />
+    <script src="js/thumbnail-slider.js" type="text/javascript"></script>
+<!-- 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script> -->
+	<!--[if lte IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+</head>
+
+<body class="desktop">
+	<div id="thumbnail-slider" style="display:none;">
+            
+        </div>
+        
+	<div id="wrapper">
+		<!-- Header Navigation -->
+		<header id="banner">
+			<section id="banner-top">
+			
+				<ul id="socialLinks">					
+					<li><a href="#" title="Twitter" class="twitter" target="_blank">Twitter</a></li>
+					<li><a href="#" title="Facebook" class="facebook" target="_blank">Facebook</a></li>
+					<li><a href="#" title="Flickr" class="flickr" target="_blank">Flickr</a></li>															
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-user"></span>
+                        <strong id="headline_first_name"></strong>
+                        <span class="glyphicon glyphicon-chevron-down"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="navbar-login">
+                                <div class="row">
+                                    <div class="col-lg-4">
+                                        <p class="text-center" id="headline_image">                                                                                 
+                                        </p>
+                                    </div>
+                                    <div class="col-lg-8">
+                                        <strong><p class="text-left" id="headline_full_name"></p></strong>
+                                        <p class="text-left small" id="headline_email"></p>     
+                                        <p class="text-left small" id="headline_category"></p>                                   
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="divider navbar-login-session-bg"></li>
+                        <li id="manageEvent"><a href="admin_artist.html">Manage Events <span class="glyphicon glyphicon-stats pull-right"></span></a></li>
+			            <li class="divider"></li>
+			            <li><a href="#" id="logOut">Sign Out <span class="glyphicon glyphicon-log-out pull-right"></span></a></li>
+                    </ul>
+                </li>
+            </ul>
+			    <div class="register-link">
+			    	<a href="login.html">Login / Register</a>
+			    </div>
+			    <div style="clear:both"></div>
+			</section>
+			<nav id="menu">
+				<div id="logoBlock">
+					<div class="logoImage"></div>
+					<div class="logoText" data-content="City Art Factory">City Art Factory</div>
+				</div>
+				<ul id="nav">
+					<li><a class="" href="index.html">Home</a></li>
+					<li><a class="" href="company.html">Company Profile</a></li>
+					<li><a class="" href="programme.html">Programme</a></li>
+					<li><a class="" href="services.html">Services</a></li>
+					<li><a class="" href="art_tourism.html">Eco Art Tourism</a></li>
+					<li><a class="selected" href="egallery.html">E-Gallery</a></li>
+					<li><a class="" href="photo_archive.html">Photo Archive</a></li>
+					<li><a class="" href="contact.html">Contact us</a></li>
+				</ul>
+			</nav>
+			
+		</header>
+		
+		<div class="clear"></div>
+	
+		<!-- Content Area -->							
+	
+		<!-- Inner Mid Area Start -->
+		<div class="inner-mid-area-egallery">
+			<div>
+				<div class="row project-header">
+					<div class="columns">
+						<h1>Welcome to our E-Gallery</h1>
+							<p class="lead">Please browse through our wonderful collections of images. Inorder to know the price , please click on the images.</p>							
+					</div>					
+					<div class="clear" style="margin-top:20px;"></div>
+				</div>		
+				
+				<div class="row">
+					<div class="large-12 columns" style="overflow: visible">
+					<ul class="polaroids large-block-grid-4 small-block-grid-2" id="egallery-master">					
+					</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+			</div>
+		</div>
+<!-- Inner Mid Area End -->
+
+<!-- Inner Mid Area Start -->
+		<div class="inner-egallery-child">
+			<div>
+				<div class="row project-header">
+					<div class="columns" style="width:auto;">
+						<h1>Artist's Art</h1>
+							<p class="lead">Some Examples of our artist's Work ..... </p>							
+					</div>	
+					<a href="#" id="backToEgallery" style="float: right;"><span style="vertical-align: 20px;color:#1086a6;font-weight: bold;">Back to E-Gallery</span> <img src="images/button1.png" style="background: url(images/button1.png);
+    height: 50px;
+    width: 50px;
+    background-size: contain;"/></a>
+					<div class="clear" style="margin-top:20px;"></div>
+				</div>		
+				
+				<div class="row" id="myGallery">
+					<div class="large-12 columns" style="overflow: visible">
+					<ul class="polaroids large-block-grid-4 small-block-grid-2" id="egallery-child">						
+					</ul>
+					</div>
+					<div class="clear"></div>
+				</div>
+		</div>
+		</div>
+<!-- Inner Mid Area End -->
+
+		<div class="clear"></div>	
+			
+		<!--FOOTER-->
+		<div id="footer-bottom">
+					<div class="inner-footer">
+				
+						<div id="footer-left">
+							<div class="left">
+							 © 2016 City Art Factory. All Rights Reserved
+							 <span>  | <span>
+							 <a href="#" class="email"><p> cityartfactory@gmail.com </p></a>							 
+							</div>
+							 <a href="#" class="ext-link footerCopyright">Designed by </a>
+						</div>
+						
+						<div class="clear"></div>
+					</div>
+				</div>
+		<!--end FOOTER-->
+	 
+		
+    </div>
+	<!--end Wrapper-->
+	 <script>
+           
+        </script>
+        
+	<script src="js/modules/egallery.js"></script>
+	
+</body>
+
+</html>
