@@ -10,15 +10,26 @@
  
 $config = array(
     "db1" => array(
-            "dbname" => "id1452302_cityartfactory",
-            "username" => "id1452302_cityart",
+            "dbname" => "u435181048_cityartfactory",
+            "username" => "u435181048_cityart",
             "password" => "Connect123",
             "host" => "localhost"
         )
     ,
     "urls" => array(
         "baseUrl" => "http://example.com"
-    ),
+        )
+    ,
+    "FromEmail" => array(
+        "address" => "cityartfactory.kolkata@gmail.com",
+		"name" => "City Art Factory"
+        )
+    ,
+	"ToEmail" => array(
+        "address" => "cityartfactory@gmail.com",
+		"name" => "Santanu"
+        )
+    ,
     "paths" => array(
         "resources" => "/path/to/resources",
         "images" => array(
@@ -48,6 +59,6 @@ defined("TEMPLATES_PATH")
     Error reporting.
 */
 ini_set("error_reporting", "true");
-error_reporting(E_ALL|E_STRCT);
+error_reporting(E_STRCT);
  
 ?>

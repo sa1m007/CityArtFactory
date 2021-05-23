@@ -133,8 +133,8 @@ $(document).ready(function() {
 		  $('#message').hide(); 
 		  $('#message').removeClass('alert-success alert-danger');		  
 		  
-		  if($('input[name="email"]').val() == null || $('input[name="email"]').val() == "" || 
-				  $('input[name="password"]').val() == null || $('input[name="password"]').val() == "" 
+		  if($('input[name="email"]').val() == null || $('input[name="email"]').val() == ""  
+				 // || $('input[name="password"]').val() == null || $('input[name="password"]').val() == "" 
 			|| $("#category-type option:selected").val() == "none" ){
 			  $('#message').show();
   			  $('#message').addClass('alert-danger');

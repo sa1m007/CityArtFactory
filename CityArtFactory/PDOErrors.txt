@@ -56,3 +56,6 @@
 2018-09-10 07:12:02am - SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'POSITION' cannot be null , Line number - 163
 2018-09-15 10:04:50am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 29
 2018-09-15 10:04:50am - SQLSTATE[HY000] [2006] MySQL server has gone away , Line number - 29
+2021-05-23 02:01:28pm - SQLSTATE[HY000] [1049] Unknown database 'id1452302_cityartfactory'
+2021-05-23 02:01:28pm - SQLSTATE[HY000] [1049] Unknown database 'id1452302_cityartfactory' , Line number - 24
+2021-05-23 02:01:28pm - SQLSTATE[HY000] [1049] Unknown database 'id1452302_cityartfactory' , Line number - 24

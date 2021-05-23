@@ -21,6 +21,7 @@
     $tempFolder = '/images/temp'; // Relative to the root    
     $userFolder = '/images/artists'; // Relative to the root
     $artistfileName = 'artist';
+	$judgefileName = 'judge';
     $artgroupfileName = 'artgroup';
     $institutefileName = 'institute';
     $buyerfileName = 'buyer';
@@ -143,6 +144,9 @@
     					}
     					else if($category_type == "Art Group"){
     						$fileName = $artgroupfileName;
+    					}
+						else if($category_type == "Judge"){
+    						$fileName = $judgefileName;
     					}
     					else if($category_type == "Institute"){
     						$fileName = $institutefileName;
@@ -289,6 +293,9 @@
     					
     					if($category_type == "Artist"){
     						$fileName = $artistfileName;
+    					}
+						else if($category_type == "Judge"){
+    						$fileName = $judgefileName;
     					}
     					else if($category_type == "Art Group"){
     						$fileName = $artgroupfileName;
